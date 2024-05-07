@@ -1,0 +1,16 @@
+Homepage basic layout
+
+----------------------------------
+TOP:
+navbar: about us; 
+
+
+
+Logo: My Buddy
+Slogan:
+There is no better way to introduce newcomers to an unknown city than with
+their first friend – which is why we've created a system that offers personalized
+companionship to all users, regardless of their background, duration of stay in
+Munich, or specific needs. 
+
+(learn more) [ button]

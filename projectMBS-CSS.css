@@ -67,7 +67,16 @@ body{
   }
 
 /* BODY STUFF */
-.Intro {
+#Intro {
     color: white;
     background-color: #6B6E70;
+    margin-top: 3%;
+    /* padding-top: 10px; */
+}
+
+#videoBlock {
+    text-align: center;
+    background-color: #796e7e;
+    border: #bdbab1;
+    border-radius: 2px;
 }
