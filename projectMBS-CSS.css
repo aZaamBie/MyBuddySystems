@@ -2,14 +2,24 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: #5c5360;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #5c5360; */
+    height: 100%;
+    width: 100%;
+
+
+    /* background: linear-gradient(#5c5360, #330c43); */
+    background: linear-gradient(#5c5360, #403942);
+    background-repeat: no-repeat; /* KEEP THIS! Without this, the gradient repeats*/
+    background-attachment: fixed;
+
+    /* display: flex; */ /* puts EVERYTHING in center */
 }
 
 .heading{
-    background-color:#ffffff;
     text-align: center;
-    border: 2px solid #bdbab1; /* 2px */
+    /* border: 2px solid #bdbab1; */ /* 2px */
 
     /* margin-left: 0px; */
     /* margin-right: 0px; */
@@ -18,42 +28,44 @@ body{
     /* margin: 0px; */
     /* position: fixed;  */ /* IGNORES FORMATTING. ONLY USE FOR COVERING WHOLE SCREEN*/
 
-    /* margin-left:-1%;
-    margin-right:-1%; */
-    /* margin-top: -1%; */
-    /* width: 110%; */
     /* width: 100%; */ /* ORIGINAL  */
-    min-width: 100%; /* 100% */
-    padding: 5px;
+    padding: 0px; /* REMOVE PADDING, to allow section to cover whole screen horizontally */
     background-size: auto;
 }
 
 .TopNav{
     overflow: hidden;
-    background-color: #A4A4A4; /* #bdb67a */
-
-    /* color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px; */
-
+    /* background-color: #5c5360; */
+    background-color: white;
 
     margin: auto;
-    margin-bottom: -1%;
-    margin-left: -1%;
-    width: 101%;
+    margin-bottom: 0%;  /* -1% */
+    margin-left: 0;  /* -1% */
+    width: 100%; /* 101% */
+
+    align-items: center; /* centers elements*/
+    /* display: flex; */
+    display: inline-block; /* block */
+    
+
+
+    /* NEWW */
+    /* position: absolute; */
 }
 
 
 .TopNav a{
+    /* background-color: white; */
     /* display: block; */
-    color: #f2f2f2;
-    
-    padding: 10px;
+    color: #453030;
+    margin: auto;
+    /* padding: 20px; */
+    padding: 20px 10px 30px;
 
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    /* padding-bottom: 10px; */
 }
 
 .TopNav a.hover {
@@ -66,12 +78,62 @@ body{
     color: white;
   }
 
+.navLinks {
+    margin: auto auto; /* goes underneath logo*/
+    /* inline-size: auto; */
+    /* display: inline-block; */
+
+    /* display: flex; */
+    align-items: center;
+    /* list-style: none; */
+    /* gap: 5px; */
+    padding-bottom: -10px;
+}
+
 /* BODY STUFF */
-#Intro {
+#center { /* Intro */
     color: white;
     background-color: #6B6E70;
-    margin-top: 3%;
+    border: 1px solid #6B6E70;
+    border-radius: 5px;
+
+    margin: auto;
     /* padding-top: 10px; */
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    white-space: initial;
+
+    /* STUFF  */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logoSmall{
+    /* width: 5%; */
+    /* padding-right: 100px; */
+
+    /* position: fixed; */
+    /* top: 0; */
+    left: 0;
+    /* padding: 10px; */
+}
+
+#learnMore{
+    padding: 1%;
+    color: #f2f2f2; /* text color */
+    border: 2px solid rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36);
+    border-radius: 1px;
 }
 
 #videoBlock {
