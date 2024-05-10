@@ -214,3 +214,27 @@ body{
     /* width: 50%;
     display: block; */
 }
+
+/* ABOUT US: BODY */
+#body_About{
+    position: relative;
+    margin-top: 5%;
+    margin: auto;
+    width: 60%;
+    display: block; /* block */
+}
+
+#body_About p{
+    text-align: center;
+    /* width: 80%; */
+}
+
+#body_About h3{
+    /* margin-top: %; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.viewLinkedin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
